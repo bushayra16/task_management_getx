@@ -27,7 +27,7 @@ class ControllerBinder extends Bindings {
     Get.put(VerifyOtpController());
     Get.put(SetPasswordController());
     Get.put(TaskUpdateController());
-    Get.put(ProfileUpdateController());
+    // Get.put(ProfileUpdateController());
   }
 
 }

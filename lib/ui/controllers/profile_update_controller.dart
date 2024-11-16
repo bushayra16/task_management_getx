@@ -31,7 +31,7 @@ class ProfileUpdateController extends GetxController {
       "firstName": firstName,
       "lastName": lastName,
       "mobile": mobile,
-      "password": password,
+      // "password": password,
     };
 
     if (password != '') {
