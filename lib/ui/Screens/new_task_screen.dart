@@ -1,18 +1,10 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:task_management/data/model/task_status_count.dart';
-import 'package:task_management/data/model/network_response.dart';
-import 'package:task_management/data/model/task_status_model.dart';
-import 'package:task_management/data/model/task_list_model.dart';
-import 'package:task_management/data/services/network_caller.dart';
-import 'package:task_management/data/utils/urls.dart';
 import 'package:task_management/ui/Screens/add_new_task_screen.dart';
 import 'package:task_management/ui/controllers/new_task_list_controller.dart';
 import 'package:task_management/ui/controllers/task_count_controller.dart';
-import 'package:task_management/ui/widgets/circular_indicator.dart';
 import 'package:task_management/ui/widgets/snack_bar_msg.dart';
-import 'package:task_management/data/model/task_model.dart';
 import '../widgets/task_update_card.dart';
 import '../widgets/task_summary_card.dart';
 

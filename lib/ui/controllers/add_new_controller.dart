@@ -3,7 +3,6 @@ import 'package:get/get.dart';
 import '../../data/model/network_response.dart';
 import '../../data/services/network_caller.dart';
 import '../../data/utils/urls.dart';
-import '../widgets/snack_bar_msg.dart';
 
 class AddNewController extends GetxController{
   bool _inProgress = false;

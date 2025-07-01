@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:task_management/data/utils/urls.dart';
-import 'package:task_management/ui/Screens/sign_in_screen.dart';
 import 'package:task_management/ui/controllers/auth_controllers.dart';
 import 'package:task_management/ui/widgets/app_bar.dart';
 import 'package:task_management/ui/widgets/circular_indicator.dart';

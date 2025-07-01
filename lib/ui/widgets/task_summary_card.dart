@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:task_management/data/model/task_status_count.dart';
 import 'package:task_management/data/model/task_status_model.dart';
-import 'package:task_management/data/model/task_list_model.dart';
 
 class TaskSummaryCard extends StatelessWidget {
   const TaskSummaryCard({

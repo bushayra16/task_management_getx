@@ -1,13 +1,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:task_management/data/model/network_response.dart';
-import 'package:task_management/data/model/task_list_model.dart';
-import 'package:task_management/data/model/task_model.dart';
-import 'package:task_management/data/utils/urls.dart';
 import 'package:task_management/ui/controllers/completed_controller.dart';
 import 'package:task_management/ui/widgets/snack_bar_msg.dart';
-import '../../data/services/network_caller.dart';
 import '../widgets/task_update_card.dart';
 
 class CompletedTaskScreen extends StatefulWidget {

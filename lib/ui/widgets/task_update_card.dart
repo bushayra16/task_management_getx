@@ -24,7 +24,7 @@ class TaskCard extends StatefulWidget {
 
 class _TaskCardState extends State<TaskCard> {
   String _selectedStatus = '';
-  bool _changeStatusInProgress = false;
+  final bool _changeStatusInProgress = false;
   bool _deleteTaskInProgress = false;
   final TaskUpdateController _taskUpdateController = Get.find<TaskUpdateController>();
 

@@ -1,14 +1,9 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:http/http.dart';
-import 'package:task_management/data/model/network_response.dart';
-import 'package:task_management/data/services/network_caller.dart';
-import 'package:task_management/data/utils/urls.dart';
 import 'package:task_management/ui/controllers/sign_up_controller.dart';
 import 'package:task_management/ui/widgets/circular_indicator.dart';
 import 'package:task_management/ui/widgets/snack_bar_msg.dart';
-import 'package:task_management/ui/Screens/sign_in_screen.dart';
 import 'package:task_management/ui/utils/app_colors.dart';
 import 'package:task_management/ui/widgets/screen_background.dart';
 

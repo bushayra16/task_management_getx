@@ -3,11 +3,6 @@ import 'package:get/get.dart';
 import 'package:task_management/ui/controllers/in_progress_controller.dart';
 import 'package:task_management/ui/widgets/snack_bar_msg.dart';
 
-import '../../data/model/network_response.dart';
-import '../../data/model/task_list_model.dart';
-import '../../data/model/task_model.dart';
-import '../../data/services/network_caller.dart';
-import '../../data/utils/urls.dart';
 import '../widgets/task_update_card.dart';
 
 class ProgressTaskScreen extends StatefulWidget {

@@ -4,9 +4,7 @@ import 'package:task_management/ui/Screens/add_new_task_screen.dart';
 import 'package:task_management/ui/Screens/canceled_screen.dart';
 import 'package:task_management/ui/Screens/completed_screen.dart';
 import 'package:task_management/ui/Screens/forgot_password_email.dart';
-import 'package:task_management/ui/Screens/forgot_password_otp_screen.dart';
 import 'package:task_management/ui/Screens/new_task_screen.dart';
-import 'package:task_management/ui/Screens/password_set_screen.dart';
 import 'package:task_management/ui/Screens/progress_screen.dart';
 import 'package:task_management/ui/Screens/sign_in_screen.dart';
 import 'package:task_management/ui/Screens/sign_up_screen.dart';
@@ -31,7 +29,7 @@ class _TaskManagementAppState extends State<TaskManagementApp> {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorSchemeSeed: AppColors.themeColor,
-        textTheme: TextTheme(),
+        textTheme: const TextTheme(),
         inputDecorationTheme: _inputDecorationTheme(),
         elevatedButtonTheme: _elevatedButtonTheme(),
       ),

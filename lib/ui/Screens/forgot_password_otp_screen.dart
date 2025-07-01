@@ -2,16 +2,12 @@ import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:pin_code_fields/pin_code_fields.dart';
-import 'package:task_management/data/model/network_response.dart';
-import 'package:task_management/data/services/network_caller.dart';
 import 'package:task_management/ui/Screens/password_set_screen.dart';
-import 'package:task_management/ui/Screens/sign_in_screen.dart';
 import 'package:task_management/ui/controllers/verify_otp_controller.dart';
 import 'package:task_management/ui/utils/app_colors.dart';
 import 'package:task_management/ui/widgets/screen_background.dart';
 import 'package:task_management/ui/widgets/snack_bar_msg.dart';
 
-import '../../data/utils/urls.dart';
 
 class ForgotOtpScreen extends StatefulWidget {
   const ForgotOtpScreen({super.key, required this.verifyEmail});
@@ -25,7 +21,7 @@ class ForgotOtpScreen extends StatefulWidget {
 
 class _ForgotOtpScreenState extends State<ForgotOtpScreen> {
 
-  bool _verifyOtpInProgress = false;
+  final bool _verifyOtpInProgress = false;
   final TextEditingController _otpController = TextEditingController();
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   final VerifyOtpController verifyOtpController = Get.find<VerifyOtpController>();

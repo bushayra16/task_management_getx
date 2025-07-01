@@ -5,7 +5,6 @@ import 'package:task_management/ui/controllers/completed_controller.dart';
 import 'package:task_management/ui/controllers/forgot_password_controller.dart';
 import 'package:task_management/ui/controllers/in_progress_controller.dart';
 import 'package:task_management/ui/controllers/new_task_list_controller.dart';
-import 'package:task_management/ui/controllers/profile_update_controller.dart';
 import 'package:task_management/ui/controllers/set_password_controller.dart';
 import 'package:task_management/ui/controllers/sign_up_controller.dart';
 import 'package:task_management/ui/controllers/sing_in_controller.dart';

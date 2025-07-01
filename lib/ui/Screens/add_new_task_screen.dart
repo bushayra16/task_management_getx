@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:task_management/ui/Screens/new_task_screen.dart';
 import 'package:task_management/ui/controllers/add_new_controller.dart';
 import 'package:task_management/ui/widgets/app_bar.dart';
 import 'package:task_management/ui/widgets/screen_background.dart';

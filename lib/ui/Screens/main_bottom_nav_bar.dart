@@ -3,7 +3,6 @@ import 'package:task_management/ui/Screens/canceled_screen.dart';
 import 'package:task_management/ui/Screens/completed_screen.dart';
 import 'package:task_management/ui/Screens/new_task_screen.dart';
 import 'package:task_management/ui/Screens/progress_screen.dart';
-import 'package:task_management/ui/utils/app_colors.dart';
 
 import '../widgets/app_bar.dart';
 

@@ -1,17 +1,12 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:task_management/ui/Screens/forgot_password_email.dart';
 import 'package:task_management/ui/Screens/sign_in_screen.dart';
-import 'package:task_management/ui/Screens/sign_up_screen.dart';
 import 'package:task_management/ui/controllers/set_password_controller.dart';
 import 'package:task_management/ui/utils/app_colors.dart';
 import 'package:task_management/ui/widgets/screen_background.dart';
 import 'package:task_management/ui/widgets/snack_bar_msg.dart';
 
-import '../../data/model/network_response.dart';
-import '../../data/services/network_caller.dart';
-import '../../data/utils/urls.dart';
 
 class PasswordSetScreen extends StatefulWidget {
   const PasswordSetScreen({super.key, required this.email, required this.otp});

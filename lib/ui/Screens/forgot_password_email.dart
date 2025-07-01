@@ -1,18 +1,13 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:task_management/data/model/network_response.dart';
-import 'package:task_management/data/services/network_caller.dart';
 import 'package:task_management/ui/Screens/forgot_password_otp_screen.dart';
-import 'package:task_management/ui/Screens/sign_in_screen.dart';
 import 'package:task_management/ui/controllers/forgot_password_controller.dart';
 import 'package:task_management/ui/utils/app_colors.dart';
 import 'package:task_management/ui/widgets/circular_indicator.dart';
 import 'package:task_management/ui/widgets/screen_background.dart';
 import 'package:task_management/ui/widgets/snack_bar_msg.dart';
 
-import '../../data/utils/urls.dart';
 
 class VerificationScreen extends StatefulWidget {
   const VerificationScreen({super.key});

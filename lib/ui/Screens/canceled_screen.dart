@@ -2,11 +2,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:task_management/ui/controllers/cancelled_controller.dart';
-import '../../data/model/network_response.dart';
-import '../../data/model/task_list_model.dart';
-import '../../data/model/task_model.dart';
-import '../../data/services/network_caller.dart';
-import '../../data/utils/urls.dart';
 import '../widgets/snack_bar_msg.dart';
 import '../widgets/task_update_card.dart';
 

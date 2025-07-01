@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:task_management/ui/Screens/profile_screen.dart';
 import 'package:task_management/ui/Screens/sign_in_screen.dart';
-import 'package:task_management/ui/utils/assets_path.dart';
 
 import '../controllers/auth_controllers.dart';
 import '../utils/app_colors.dart';
